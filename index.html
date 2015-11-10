@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>SuperCalc</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <script src="funciones.js"></script>
+</head>
+<body>
+    <div id="pantalla">
+    </div>
+    
+    <table>
+        <tr>
+            <td colspan="3"><button onclick="acordeon();"></button></td>       
+            <td><button onclick="borrar()">c</button></td>    
+        </tr>
+        <tr>
+            <td><button onclick="agregarNumero('7')" class="num">7</button></td>    
+            <td><button onclick="agregarNumero('8')" class="num">8</button></td>    
+            <td><button onclick="agregarNumero('9')" class="num">9</button></td>    
+            <td><button onclick="agregarNumero('/')">/</button></td>    
+        </tr>
+        <tr>
+            <td><button onclick="agregarNumero('4')" class="num">4</button></td>    
+            <td><button onclick="agregarNumero('5')" class="num">5</button></td>    
+            <td><button onclick="agregarNumero('6')" class="num">6</button></td>    
+            <td><button onclick="agregarNumero('*')">X</button></td>    
+        </tr>
+        <tr>
+            <td><button onclick="agregarNumero('1')" class="num">1</button></td>    
+            <td><button onclick="agregarNumero('2')" class="num">2</button></td>    
+            <td><button onclick="agregarNumero('3')" class="num">3</button></td>    
+            <td><button onclick="agregarNumero('-')">-</button></td>    
+        </tr>
+        <tr>
+            <td><button onclick="agregarNumero('.')" class="num">.</button></td>    
+            <td><button onclick="agregarNumero('0')" class="num">0</button></td>    
+            <td><button onclick="igual()">=</button></td>    
+            <td><button onclick="agregarNumero('+')">+</button></td>    
+        </tr>
+    </table>
+    
+</body>
+
+</html>
